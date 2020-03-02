@@ -1,0 +1,11 @@
+Commonly Used Excel Formulas
+
+  Make cell display name of current sheet: =MID(CELL("filename",A1),FIND("]",CELL("filename",A1))+1,256)
+  
+  Count range if value is equal to this data: =COUNTIF(E:E,"Inbound")  / =COUNTIF (Range, *txt*)
+    
+  Sum of range based on value in another cell: =SUMIF(Range with value,"text value to count", Range to sum)
+
+
+  
+  
